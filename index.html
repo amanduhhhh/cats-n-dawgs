@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles.css" />
     <title>it's raining</title>
+    <style>
+      body {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <header></header>
@@ -27,5 +32,10 @@
       <p>nintendo please dont smite me</p>
     </footer>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        document.body.style.display = "flex";
+      });
+    </script>
   </body>
 </html>
